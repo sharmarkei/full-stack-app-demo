@@ -58,7 +58,7 @@ app.listen(PORT, () => {
   console.log(`currently listening on ${PORT}`);
 });
 
-function createTable() { //when you see a function declarations, they get housted.
+function createTable() { //when you see a function declarations, they get hoisted.
   client.query(`
     CREATE TABLE IF NOT EXISTS persons(
       id SERIAL PRIMARY KEY,
